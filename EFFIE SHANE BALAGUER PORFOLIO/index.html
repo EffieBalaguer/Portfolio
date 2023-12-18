@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPS PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    .text-box{
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+.text-box p{
+    margin-left: -20px;
+    font-size: 50px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+.text-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -30px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+    background-position: 2000px 0;
+
+    }
+}
+
+
+
+
+
+
+.text-box .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text-box a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 40px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+}
+.social-icons{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icons img{
+    width: 50%;
+    display: block;
+    margin: 25px 5px;
+}
+</style>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/EFFIES.png" class="EFFIES">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Portfolio</a></li>
+            </ul>
+            <img src="images/cart.png" class="cart-icon">
+        </nav>
+        <div class="text-box">
+            <p>I'M</p>
+            <h1>EFFIE</h1>
+
+            <div class="row">
+                <a href="portfolio.html">Explore My Portfolio</a>
+                <a href="">Connect With Me</a>
+                <span>You Can Explore More About My Portfolio</span>
+            </div>
+
+            
+        </div>
+
+        <div class="social-icons">
+            <a href=""><img src="images/dribble.png"></a>
+            <a href=""><img src="images/telegram.png"></a>
+            <a href=""><img src="images/instagram.png"></a>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
